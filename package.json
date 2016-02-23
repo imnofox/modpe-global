@@ -4,5 +4,6 @@
   "description": "Allows global hooks to be accessed with browserify",
   "main": "globe.js",
   "author": "imnofox <lachlan@imnofox.com>",
+	"repository": "https://github.com/imnofox/modpe-global.git",
   "license": "MIT"
 }
