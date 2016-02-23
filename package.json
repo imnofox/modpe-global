@@ -1,0 +1,8 @@
+{
+  "name": "modpe-globe",
+  "version": "1.0.0",
+  "description": "Allows global hooks to be accessed with browserify",
+  "main": "globe.js",
+  "author": "imnofox <lachlan@imnofox.com>",
+  "license": "MIT"
+}
