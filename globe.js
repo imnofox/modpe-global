@@ -1,9 +1,7 @@
 /*
- *	From https://github.com/sliceofcode/OreDirectory/blob/master/src/core/global.coffee
+ *	From https://github.com/sliceofcode/flytest/commit/bfa21eaf88cdb223030661f6e11640bb3fc3af9f
  */
 
-var global = (function() {
-        return this;
-    }).call(null);
+var global = Function('return this')() || (42, eval)('this'); // jshint ignore:line
 
 module.exports = global;
